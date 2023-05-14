@@ -855,7 +855,7 @@ body {
     height: 305px;
   }
   .intro--banner h1 {
-    font-size: 44px;
+    font-size: 42px;
   }
   .intro--banner img {
     width: 330px;
@@ -877,7 +877,8 @@ body {
     height: 360px;
   }
   .intro--banner h1 {
-    font-size: 55px;
+    font-size: 42px;
+    margin-top: 2.2em;
   }
   .intro--banner img {
       position: absolute;
