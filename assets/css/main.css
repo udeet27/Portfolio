@@ -906,11 +906,11 @@ body {
   }
   .intro--banner h1 {
     font-size: 40px;
-    padding-top: 3em;
+    padding-top: 2em;
   }
   .intro--banner img {
     position:absolute;
-    bottom: 13em;
+    bottom: 15em;
     right: 20px;
     transform: scale(0.5);
   }
