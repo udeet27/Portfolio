@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 @font-face {
   font-family: "Whyte";
   src: local("☺"), url("fonts/WhyteInktrap-Regular.ttf") format("truetype");
@@ -56,20 +56,20 @@ body {
   /* background: url('assets/img/matrix-the-matrix-has-you.gif') no-repeat 50% 50%;
   background-size: cover; */
 }
-#preloader{
+#preloader {
   position: fixed;
   height: 100vh;
-  width: 100%;  
+  width: 100%;
   z-index: 100;
   background-color: #000;
   text-align: center;
   transition: all 1s ease-in-out;
 }
-#preloader img{
+#preloader img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 article,
@@ -624,7 +624,7 @@ body {
 }
 .side-nav li.is-active::before {
   left: -33px;
-  color:antiquewhite;
+  color: antiquewhite;
 }
 .intro {
   position: relative;
@@ -717,15 +717,15 @@ body {
   display: grid;
   /* place-items: center; */
 }
-.wrapper i:hover{
-  color:#f9b66f !important;
+.wrapper i:hover {
+  color: #f9b66f !important;
 }
-.wrapper a:visited{
-  color:#070707;
+.wrapper a:visited {
+  color: #070707;
   /* text-decoration: none; */
-} 
-.wrapper i{
-   margin-right: 10px;
+}
+.wrapper i {
+  margin-right: 10px;
   margin-left: 10px;
   margin-top: 5px;
 }
@@ -740,12 +740,12 @@ body {
   visibility: hidden;
   width: 60px;
   background-color: #070707;
-  color:antiquewhite;
+  color: antiquewhite;
   text-align: center;
   padding: 5px 0;
   border-radius: 15px;
- font-size: 12px;
- font-style: normal;
+  font-size: 12px;
+  font-style: normal;
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
@@ -754,7 +754,7 @@ body {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
-} 
+}
 .tooltip .tooltiptext {
   width: 60px;
   bottom: 100%;
@@ -773,6 +773,7 @@ body {
   font-size: 1.8em;
   margin-left: 5px;
 }
+
 /* #typing-demo2 {
   width: 8em;
   animation: typing 3s steps(27),2s step-end alternate;
@@ -782,7 +783,7 @@ body {
   border-right: 1px solid #f9b66f;
   color: antiquewhite;
   /* font-family: monospace; */
-  /* font-size: 1.9em;
+/* font-size: 1.9em;
   margin-left: 7px;
 } */
 
@@ -841,13 +842,16 @@ body {
     font-size: 55px;
   }
   .intro--banner img {
-    width: 430px;
+    width: 300px;
   }
   .intro--options > a {
     margin-right: 30px;
   }
   .intro--options > a:last-child {
     margin-right: 0;
+  }
+  #counters{
+    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -871,38 +875,54 @@ body {
   .intro--options > a:last-child {
     margin-bottom: 0;
   }
+  #counters{
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .intro--banner {
-    height: 360px;
+    height: 500px;
   }
   .intro--banner h1 {
     font-size: 42px;
-    margin-top: 2.2em;
+    margin-top: 5em;
   }
   .intro--banner img {
-      position: absolute;
-      bottom:195px;
-      right: 20px;
-      transform: scale(0.5);
+    position: absolute;
+    bottom: 250px;
+    right: 20px;
+    transform: scale(0.5);
+  }
+  #counters{
+    display: none;
   }
 }
 @media (max-width: 400px) {
   .intro--banner {
-    height: 370px;
+    height: 600px;
   }
   .intro--banner h1 {
     font-size: 40px;
     padding-top: 3em;
   }
   .intro--banner img {
-      position: absolute;
-      bottom:195px;
-      right: 20px;
-      transform: scale(0.5);
+    position:absolute;
+    bottom: 13em;
+    right: 20px;
+    transform: scale(0.5);
+  }
+  #move::before {
+    content: "\a";
+    white-space: pre;
+  }
+  #counters{
+    display: none;
   }
 }
 @media (max-width: 600px) and (max-height: 750px) {
+  #counters{
+    display: none;
+  }
   .intro--banner {
     height: 360px;
   }
@@ -947,7 +967,7 @@ body {
   font-size: 30px;
   text-align: center;
   color: #f9b66f;
-  font-family: "EB Garamond","Whyte","Montserrat",sans-serif;
+  font-family: "EB Garamond", "Whyte", "Montserrat", sans-serif;
   font-weight: 50;
 }
 .work--lockup {
@@ -1487,7 +1507,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   margin: 30px 0;
-  color:antiquewhite;
+  color: antiquewhite;
 }
 .work-request--options .options-a {
   display: -webkit-box;
@@ -1542,7 +1562,6 @@ body {
   background-color: #f9b66f;
   border-color: #f9b66f;
   color: #070707;
-
 }
 .work-request--options input[type="checkbox"]:checked + label svg {
   width: 15px;
@@ -1756,9 +1775,9 @@ body {
 .outer-nav > li.is-active::before {
   opacity: 1;
 }
-.outer-nav li:hover{
-    color: #f9b66f;
-    transition: 0.35s;
+.outer-nav li:hover {
+  color: #f9b66f;
+  transition: 0.35s;
 }
 @media (max-width: 767px) {
   .outer-nav > li {
