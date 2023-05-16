@@ -852,6 +852,7 @@ body {
   }
   #counters{
     display: none;
+    visibility: hidden;
   }
 }
 @media (max-width: 767px) {
@@ -877,6 +878,7 @@ body {
   }
   #counters{
     display: none;
+    visibility: hidden;
   }
 }
 @media (max-width: 600px) {
@@ -895,6 +897,7 @@ body {
   }
   #counters{
     display: none;
+    visibility: hidden;
   }
 }
 @media (max-width: 400px) {
@@ -917,11 +920,12 @@ body {
   }
   #counters{
     display: none;
+    visibility: hidden;
   }
 }
 @media (max-width: 600px) and (max-height: 750px) {
   #counters{
-    display: none;
+    display: none;visibility: hidden;
   }
   .intro--banner {
     height: 360px;
