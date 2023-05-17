@@ -1253,6 +1253,9 @@ textarea {
 .ps {
   font-size: 13px;
 }
+.music{
+  padding-top:9em; padding-left:20em;
+}
 @media (max-width: 1180px) {
   .about {
     max-width: 100%;
@@ -1273,10 +1276,13 @@ textarea {
   height: 100%; */
   }
   .about h2 {
-    margin-top: 2.7em;
+    margin-top: 2.5em;
   }
   .ps {
     font-size: 10px;
+  }
+  .music{
+    padding-top:10em; padding-left:0em;
   }
 }
 .contact {
