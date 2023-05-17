@@ -943,8 +943,9 @@ textarea {
   }
   fieldset > input {
     width: 13em;
-    height: 2em;
+    height: 2.5em;
     margin-top: 1em;
+    font-size: 1em;
   }
 
   textarea {
@@ -1272,7 +1273,7 @@ textarea {
   height: 100%; */
   }
   .about h2 {
-    margin-top: 2em;
+    margin-top: 2.7em;
   }
   .ps {
     font-size: 10px;
