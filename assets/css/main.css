@@ -1768,9 +1768,24 @@ textarea {
   top: 50%;
   transform: translate(-25%, 0%);
 }
+.center2{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-55%, 0%);
+}
 @media (max-width: 600px) {
   .center {
     width: 200%;
     transform: translate(-25%, 0%);
+  }
+  .center2{
+    position: relative;
+    /* overflow: hidden; */
+    margin: auto;
+    width: 50%;
+    margin-left: 0em;
+    font-size: 1em;
+    transform: translate(-95%, 0%);
   }
 }
