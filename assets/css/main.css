@@ -953,8 +953,8 @@ textarea {
     border: 2px solid #f9b66f;
     border-radius: 5px;
     width: 15em;
-  height: 7em;
-  margin-top: 2em;
+    height: 7em;
+    margin-top: 2em;
     margin-bottom: 30px;
     margin-left: 3em;
   }
@@ -1253,8 +1253,9 @@ textarea {
 .ps {
   font-size: 13px;
 }
-.music{
-  padding-top:9em; padding-left:20em;
+.music {
+  padding-top: 9em;
+  padding-left: 20em;
 }
 @media (max-width: 1180px) {
   .about {
@@ -1281,8 +1282,9 @@ textarea {
   .ps {
     font-size: 10px;
   }
-  .music{
-    padding-top:10em; padding-left:0em;
+  .music {
+    padding-top: 10em;
+    padding-left: 0em;
   }
 }
 .contact {
@@ -1760,34 +1762,18 @@ textarea {
   -webkit-transition-delay: 0.16s;
   transition-delay: 0.16s;
 }
-/* #contact-form{
-  margin-left: 5em;
-}
-#contact-form input {
-  background-color: #070707;
-  border: 2px solid #f9b66f;
-  border-radius: 5px;
-  width: 20em;
-  height: 2em;
-  margin-bottom: 30px;
-  margin-left: 20px;
+.center {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-25%, 0%);
 }
 
-#contact-form label{
-   margin-right: 10px; 
+@media (max-width: 600px) {
+  iframe {
+   width: 100%;
+  }
+  .center{
+    transform: translate(-50%, 0%);
+  }
 }
-
-#contact-form label:before{
-  content: "\a";
-  white-space: pre;
-}
-
-textarea{
-  background-color: #070707;
-  border: 2px solid #f9b66f;
-  border-radius: 5px;
-  width: 20em;
-  height: 10em;
-  margin-bottom: 30px;
-  margin-left: 10px;
-} */
